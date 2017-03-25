@@ -15,3 +15,4 @@ RUN apt-get update && \
 	mkdir -p /usr/local/share/man/man1 &&\
 	cp rclone.1 /usr/local/share/man/man1/ &&\
 	mandb
+	rm rclone-current-linux-amd64.zip
