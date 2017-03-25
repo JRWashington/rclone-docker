@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ENV USER root
 
 RUN apt-get update && \
-	apt get install lsb-core && \
+	apt-get install lsb-core && \
 	apt-get install wget && \
 	apt-get install unzip &&\
 	curl -O http://downloads.rclone.org/rclone-current-linux-amd64.zip &&\
