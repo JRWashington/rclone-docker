@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+ENV USER root
+
 RUN apt-get update && \
 	apt get install lsb-core && \
 	apt-get install wget && \
